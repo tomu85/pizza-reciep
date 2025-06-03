@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #e53935;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://source.unsplash.com/1600x500/?food,delivery');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero .btn {
+    background-color: #ff9800;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.food-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.food-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.food-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+</style>
+
+    <header>
+        <h1>IndiaFood</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Delicious Food, Delivered Fast</h2>
+        <p>Order from your favorite restaurants across India</p>
+        <a href="#" class="btn">Order Now</a>
+    </section>
+
+    <section class="featured">
+        <h3>Popular Dishes</h3>
+        <div class="food-grid">
+            <div class="food-card">
+                <img src="https://source.unsplash.com/200x150/?biryani" alt="Biryani">
+                <h4>Chicken Biryani</h4>
+                <p>₹199</p>
+            </div>
+            <div class="food-card">
+                <img src="https://source.unsplash.com/200x150/?pizza" alt="Pizza">
+                <h4>Veg Pizza</h4>
+                <p>₹249</p>
+            </div>
+            <div class="food-card">
+                <img src="https://source.unsplash.com/200x150/?thali" alt="Thali">
+                <h4>North Indian Thali</h4>
+                <p>₹179</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IndiaFood. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
